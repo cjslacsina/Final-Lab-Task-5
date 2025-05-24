@@ -1,35 +1,36 @@
 # Finals-Lab-Task-5
-- This portfolio showcases the application of SQL views, stored procedures, and functions to handle and manipulate database data. It includes tasks such as filtering data using views, updating information through procedures, and retrieving results using functions.
+- This portfolio demonstrates the use of SQL views, stored procedures, and functions to manage and process database data. It covers tasks such as filtering data with views, updating records via procedures, and retrieving results through functions.
 
 ## Step by Step Process
 
-1. **Initialize MySQL Workbench:**
+1. **Set Up MySQL Workbench:**
 
-   * Launch XAMPP and start the MySQL server.
-   * Connect to the server via MySQL Workbench.
-   * Run test queries using the `democodes.sql` script.
+   * Start XAMPP and activate the MySQL server.
+   * Connect to the server using MySQL Workbench.
+   * Execute test queries with the `democodes.sql` script.
 
 2. **Access the Inventory Database:**
 
-   * Begin working with the `inventory.sql` file.
+   * Open and work with the `inventory.sql` file.
 
-3. **Build SQL Views:**
+3. **Create SQL Views:**
 
-   * Create a view to show vendor and product information for items with an in-date from 2002 onwards.
-   * Make a view listing products priced between 100 and 150.
-   * Create a view to calculate the total price (`on_hand * price`) for items sold by selected vendors.
+   * Design a view to display vendor and product details for items with an in-date from 2002 onwards.
+   * Develop a view that lists products priced between 100 and 150.
+   * Create a view that calculates the total price (`on_hand * price`) for items sold by specific vendors.
 
-4. **Develop a Stored Procedure:**
+4. **Create a Stored Procedure:**
 
-   * Write a procedure to change the vendor name from 'Bryson, Inc.' to 'Bryson and Co'.
+   * Develop a procedure to update the vendor name from 'Bryson, Inc.' to 'Bryson and Co'.
 
 5. **Write a Function:**
 
-   * Create a function that accepts vendor code and state as inputs, returning product descriptions and prices that match.
+   * Build a function that accepts vendor code and state as inputs, returning the product descriptions and prices that match.
 
-6. **Run and Document Results:**
+6. **Execute and Document Results:**
 
-   * Execute all SQL commands and include screenshots of both the code and the output.
+   * Run all SQL queries and provide screenshots of both the code and the resulting output.
+
 
 
 
